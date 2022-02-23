@@ -1,0 +1,17 @@
+{
+  "viewportHeight": 900,
+  "viewportWidth": 1440,
+  "video": true,
+  "videoCompression": 32,
+  "testFiles": "*.spec.ts",
+  "watchForFileChanges": false,
+  "reporter": "junit",
+  "reporterOptions": {
+    "mochaFile": "cypress/reports/report-[hash].xml",
+    "toConsole": true
+  },
+  "defaultCommandTimeout": 10000,
+  "retries": {
+    "runMode": 1
+  }
+}
