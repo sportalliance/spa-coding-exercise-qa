@@ -1,3 +1,4 @@
+//Perform a successfully login and assert that the user is redirected to the dashboard page and element .ml-main is present
 //Test should start but is currently broken, we will fix the test together
 it('test1', () => {
     cy.visit('https://coding-session.web.magicline.com')
